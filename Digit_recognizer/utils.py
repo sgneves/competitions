@@ -10,9 +10,16 @@ def get_last_elem(x):
     else:
         return x
 
-def set_spines():
-    '''Sets the box outline around the specified axis.'''
+def set_spines(ax=None):
+    '''Sets the box outline around the axis ax.
 
-    ax = plt.gca()
+    Args:
+      ax: Matplotlib axes object. Defaults to the current axis.
+    '''
+
+    if ax is None:
+        ax = plt.gca()
+
+    # Hide the right and top spines
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)

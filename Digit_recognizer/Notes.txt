@@ -1,5 +1,5 @@
 
 Submission:
  - Labels predicted using a logistic regression classifier
- - Labels predicted using a fully connected feedforward neural network
+ - Labels predicted using a fully connected neural network
  - Labels predicted using a convolutional neural network

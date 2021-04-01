@@ -1,0 +1,20 @@
+
+Submission:
+
+Labels predicted using logistic regression
+Labels predicted using random forest
+Labels predicted using ensemble
+
+Tags:
+
+feature engineering
+model comparison
+beginner
+exploratory data analysis
+data visualization
+logistic regression
+decision tree
+random forest
+neural network
+ensembling
+utility script

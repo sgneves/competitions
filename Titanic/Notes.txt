@@ -15,6 +15,5 @@ data visualization
 logistic regression
 decision tree
 random forest
-neural network
+neural networks
 ensembling
-utility script

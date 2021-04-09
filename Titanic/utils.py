@@ -18,6 +18,16 @@ def get_last_elem(x):
 
 
 # Plot
+wong_colors = {
+    'blue': [0,114/255,178/255],
+    'orange': [230/255,159/255,0],
+    'bluish_green': [0,158/255,115/255],
+    'vermillion': [213/255,94/255,0],
+    'sky_blue': [86/255,180/255,233/255],
+    'yellow': [240/255,228/255,66/255],
+    'black': [0,0,0]
+}
+
 def set_spines_vis(types=['top', 'right'], visible=False, ax=None):
     """
     Sets the spines' visibility.
@@ -42,7 +52,7 @@ def set_spines_vis(types=['top', 'right'], visible=False, ax=None):
 
 
 # Pandas
-def dataframe_info(df):
+def df_info(df):
     """
     Returns a DataFrame with the data type and null count of each column.
 
@@ -148,8 +158,7 @@ def sklearn_fit_eval(model, fit_params, X_val=None, y_val=None, cv=None, verbose
     if X_val is not None:
         val_accuracy = accuracy_score(y_val, model.predict(X_val))
     elif cv is not None:
-        val_accuracy = cross_validate(model, X_train, y_train, cv=cv,
-                                      return_train_score=True)['test_score'].mean()
+        val_accuracy = cross_validate(model, X_train, y_train, cv=cv)['test_score'].mean()
     else:
         val_accuracy = None
 

@@ -4,6 +4,7 @@ Submission:
 Labels predicted using logistic regression
 Labels predicted using random forest
 Labels predicted using ensemble
+Labels predicted using neural network
 
 Tags:
 

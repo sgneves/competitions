@@ -1,5 +1,12 @@
 
 Submission:
- - Labels predicted using a logistic regression classifier
- - Labels predicted using a fully connected neural network
- - Labels predicted using a convolutional neural network
+
+Labels predicted using a logistic regression classifier
+Labels predicted using a fully connected neural network
+Labels predicted using a convolutional neural network
+
+Tags:
+
+model comparison
+logistic regression
+neural networks
